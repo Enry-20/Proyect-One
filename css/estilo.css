@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* NAV */
+.navbar-brand{
+    color: rgb(209, 2, 2);
+}
+
+.active0 {
+ background-color:whitesmoke;
+ border-bottom: 1px black solid;
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Carousel */
+
+.textIm {
+    position: absolute;
+    text-align: center;
+    bottom: calc(7%);
+    left: calc(50% - 400px);
+}
+
+.textIm h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.textIm p {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.btn1 {
+    bottom: calc(50%);
+    font-size: 100px;
+}
+
+.textIm button {
+    border-radius: 5px;
+    transition: 1s;
+}
+
+/* Trendding Topic */
+
+#cabezera1 {
+    display: flex;
+    margin: auto 35px;
+    gap: 10px;
+    padding: 20px;
+}
+
+#cabezera1 i {
+    font-size: 30px;
+}
+
+#ttop {
+    display: flex;
+    margin: auto 50px;
+}
+
+/* Badges */
+
+#topics{
+    padding-bottom: 10px;
+    position: absolute;
+    display: none;
+}
+#cabezera0{
+    display: flex;
+}
+
+#topics span {
+    cursor: pointer;
+}
+
+#topics span:hover {
+    font-size: 13px;
+    
+}
+
+/* Imagenes */
+
+.blockquote {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.blockquote img {
+    border-radius: 3px;
+    width: 300px;
+    height: 200px;
+}
+
+.blockquote p {
+    padding: 10px;
+}
